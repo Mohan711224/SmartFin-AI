@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "AI Finance Assistant",
+    "slug": "ai-finance-assistant",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "aifinanceassistant",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#F7F3EA"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-asset"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
